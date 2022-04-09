@@ -1,0 +1,18 @@
+time limit per test 1 second
+memory limit per test 256 megabytes
+input standard input
+output standard output
+
+Luis has a sequence of n+1 integers a1,a2,…,an+1. For each i=1,2,…,n+1 it is guaranteed that 0≤ai<n, or ai=n2. He has calculated the sum of all the elements of the sequence, and called this value s.
+
+Luis has lost his sequence, but he remembers the values of n and s. Can you find the number of elements in the sequence that are equal to n2?
+
+We can show that the answer is unique under the given constraints.
+
+Input
+Each test contains multiple test cases. The first line contains the number of test cases t (1≤t≤2⋅104). Description of the test cases follows.
+
+The only line of each test case contains two integers n and s (1≤n<106, 0≤s≤1018). It is guaranteed that the value of s is a valid sum for some sequence satisfying the above constraints.
+
+Output
+For each test case, print one integer — the number of elements in the sequence which are equal to n2.
